@@ -1,0 +1,4 @@
+class RequestForum {
+    forum = ''
+    description = ''
+}
