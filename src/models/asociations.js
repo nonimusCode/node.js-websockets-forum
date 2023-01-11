@@ -1,6 +1,6 @@
 const ForumModel = require('./forum/forum.model')
-const MessaguesModel = require('./messages/messages.model')
 const UserModel = require("./Users/users");
+const MessaguesModel = require('./messages/messages.model')
 
 
 MessaguesModel.belongsTo(ForumModel, { foreignKey: "forum_id" });

@@ -26,7 +26,6 @@ exports.getForums = async (req, res) => {
         api.setEstado('fasdf', 'error', 'no se encontro ningun foro')
         return res.json(api.toResponse())
     }
-    console.log("holis");
     api.setResultado(Forums)
     return res.json(api.toResponse())
 }

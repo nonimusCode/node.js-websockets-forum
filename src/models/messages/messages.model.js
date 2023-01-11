@@ -36,7 +36,7 @@ const moment = require('moment-timezone');
 },{
     sequelize,
     sequelize : sequelize,
-    modelName :"Messages",
+    // modelName :"Messages",
     tableName:"messages",
 })
 

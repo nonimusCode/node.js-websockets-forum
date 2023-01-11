@@ -32,8 +32,8 @@ const moment = require('moment-timezone');
 },{
     sequelize,
     sequelize : sequelize,
-    modelName :"UserModel",
-    tableName:"user",
+    // modelName :"UserModel",
+    tableName:"usuario",
 })
 
 module.exports = User

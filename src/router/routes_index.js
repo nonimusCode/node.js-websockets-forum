@@ -20,7 +20,10 @@ router.post('/login',loginController.LoginUser )
 
 
 /*Mesagges*/
+
 router.post('/newMesagues',messaguesController.newMessagues )
+router.get('/getmessagues/:id_foro',messaguesController.getAllMessaguesByForoId )
+
 /*fin Mesagges */
 
 
