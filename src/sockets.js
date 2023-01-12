@@ -13,7 +13,7 @@ module.exports =  function (io) {
 
         socket.on('send email', data =>{
             const {message , username , img , hora_envio , user_id , forum_id} = data
-            io.sockets.to(nameQuestion).emit('forward message' , {message , username , img , hora_envio});
+            io.sockets.to(nameQuestion).emit('forward message' , {message , username , img , hora_envio , user_id});
             messagueController.newMessagueslocal({message ,hora_envio , user_id , forum_id })
         })
 
